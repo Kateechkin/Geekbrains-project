@@ -216,3 +216,16 @@
 	font-family: "Arial MT";
 	font-size: 16px;
 }
+.reviews {
+    width: 100%;
+	background-color: #f5f5f5;
+	box-sizing: border-box;
+	padding: 50px 50px 51px 50px;
+	width: 1280px;
+	margin: 0 auto;
+}
+.reviews-title {
+    color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+}
