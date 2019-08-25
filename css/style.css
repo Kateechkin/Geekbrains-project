@@ -246,4 +246,67 @@ details[open] .dignity-list-item:before {
     color: #445161;
     font-family: "Arial MT";
     font-size: 30px;
+    text-align: center;
+}
+.reviews-preview {
+    box-sizing: border-box;
+    width: 47%;
+     margin: 0 32px 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reviews-preview:nth-child(2) {
+    margin-right: 0px;
+}
+
+.reviews-curclephoto {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #445161;
+}
+
+.reviews-text-item {
+    width: 452px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    padding: 16px 20px 16px 24px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.reviews-text-item:before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+}
+
+.reviews-text-paragraf {
+    margin: 0px;
+    color: #333333;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.reviews-text-name {
+    width: 100%;
+    display: block;
+    margin: 15px 0 1px 0;
+    color: #989898;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.reviews-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
