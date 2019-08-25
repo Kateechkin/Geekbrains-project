@@ -243,6 +243,7 @@ details[open] .dignity-list-item:before {
 }
 
 .reviews-title {
+    margin: 0 0 35px 0;
     color: #445161;
     font-family: "Arial MT";
     font-size: 30px;
