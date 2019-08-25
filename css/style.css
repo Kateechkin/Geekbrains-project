@@ -248,14 +248,16 @@ details[open] .dignity-list-item:before {
     font-size: 30px;
     text-align: center;
 }
+
 .reviews-preview {
     box-sizing: border-box;
     width: 47%;
-     margin: 0 32px 30px 0;
+    margin: 0 32px 30px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .reviews-preview:nth-child(2) {
     margin-right: 0px;
 }
@@ -305,8 +307,100 @@ details[open] .dignity-list-item:before {
     font-weight: 400;
     line-height: 18px;
 }
+
 .reviews-block {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.buyitnow {
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 50px 145px 49px 145px;
+    width: 1280px;
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.buyitnow-title {
+    color: #445161;
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    width: 100%;
+
+
+}
+
+.buyitnow-blok {
+    background-color: #445162;
+    width: 30%;
+    margin: 29px 0 0 0;
+    border: 1px solid #445162;
+}
+
+.buyitnow-blok:nth-child(2) {
+    height: 306px;
+    align-self: flex-end;
+}
+
+.buyitnow-blok:nth-child(3) {
+    height: 404px;
+    align-self: flex-end;
+}
+
+.buyitnow-blok:nth-child(4) {
+    height: 499px;
+    align-self: flex-end;
+}
+
+.buyitnow-title-item {
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0 16px 0;
+}
+
+.buyitnow-title-price {
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0 15px 0;
+}
+
+.buyitnow-list {
+    
+}
+
+
+.buyitnow-list-item {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-position: inside;
+}
+
+.buyitnow-clik {
+    text-transform: uppercase;
 }
