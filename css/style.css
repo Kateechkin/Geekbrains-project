@@ -67,7 +67,7 @@
     width: 100%;
     background-color: #ffffff;
     box-sizing: border-box;
-    padding: 49px 0 0 50px;
+    padding: 49px 50px 50px 50px;
 }
 
 .about_product:after {
@@ -104,7 +104,6 @@
     width: 430px;
     height: 245px;
     float: right;
-    padding: 0 50px 50px 0;
 }
 
 .dignity-product {
