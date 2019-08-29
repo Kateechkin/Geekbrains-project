@@ -47,7 +47,7 @@
     position: absolute;
     top: 1px;
     left: 1px;
-    background-image: url(img/check_icon.png);
+    background-image: url(/img/check_icon.png);
     background-size: cover;
 }
 
@@ -174,7 +174,7 @@ details[open] .dignity-list-item:before {
     margin-bottom: 0px;
 }
 
-.dignity-list-item + p {
+.dignity-list-item+p {
     margin: 10px 0 0 0;
     color: #9370DB;
     font-style: oblique;
@@ -441,12 +441,13 @@ details[open] .dignity-list-item:before {
 }
 
 .contact {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #445162;
     box-sizing: border-box;
-    padding: 53px 246px 49px 249px;
+    padding: 50px;
     width: 1280px;
-    margin: 0 auto;
 }
 
 .contact-title {
@@ -463,6 +464,7 @@ details[open] .dignity-list-item:before {
 
 .contact-form {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width: 500px;
@@ -507,4 +509,123 @@ details[open] .dignity-list-item:before {
     line-height: 24px;
     text-align: center;
     outline: none;
+}
+
+.footer-icon {
+    width: 240px;
+    height: 229px;
+}
+
+.footer-icon-list {
+    width: 194px;
+    height: 155px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-icon-list-item {
+    padding: 0 0 20px 31px;
+    color: white;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+}
+
+.footer-icon-list-item:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.footer-icon-list-item:nth-child(1):before {
+    background-image: url(../img/skype_icon.png);
+    background-size: cover;
+    width: 24px;
+    height: 26px;
+}
+
+.footer-icon-list-item:nth-child(2):before {
+    background-image: url(../img/icq_icon.png);
+    background-size: cover;
+    width: 26px;
+    height: 26px;
+}
+
+.footer-icon-list-item:nth-child(3):before {
+    background-image: url(../img/email_icon.png);
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+}
+
+.footer-icon-list-item:nth-child(4):before {
+    background-image: url(../img/phone_icon.png);
+    background-size: cover;
+    width: 24px;
+    height: 23px;
+}
+
+.contact-form input[type="text"]:hover,
+.contact-form input[type="email"]:hover,
+.contact-form textarea:hover {
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+
+.contact-form input[type="text"]:hover::placeholder,
+.contact-form input[type="email"]:hover::placeholder,
+.contact-form textarea:hover::placeholder {
+    color: white;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: gray;
+    color: white;
+}
+
+.contact-form input[type="submit"]:active {
+    background-color: #ffffff;
+    color: #445162;
+}
+
+.footer-sprate {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    padding: 32px 0 0 0;
+}
+
+.footer-socion-icon {
+    display: block;
+    width: 45px;
+    height: 42px;
+    background-image: url(../img/social_buttons.png);
+}
+
+.footer-socion-icon:nth-child(1) {
+    background-position: 0 0;
+}
+
+.footer-socion-icon:nth-child(2) {
+    background-position: -48px 0;
+}
+
+.footer-socion-icon:nth-child(3) {
+    background-position: -97px 0;
+}
+
+.footer-socion-icon:nth-child(4) {
+    background-position: -147px 0;
+}
+
+.footer-socion-icon:nth-child(5) {
+    background-position: -195px 0;
 }
